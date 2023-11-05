@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:background="@drawable/backgroundproftaak">
+
+    <Button
+        android:id="@+id/mapButton"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="24dp"
+        android:layout_weight="1"
+        android:background="@android:color/black"
+        android:fontFamily="@font/cherrybomb"
+        android:onClick="onMapButton"
+        android:text="De Kaart"
+        app:layout_constraintBottom_toTopOf="@+id/writeButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/writeButton"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="24dp"
+        android:layout_weight="1"
+        android:background="@android:color/black"
+        android:fontFamily="@font/cherrybomb"
+        android:onClick="onWriteButton"
+        android:text="Tekenen"
+        app:layout_constraintBottom_toTopOf="@+id/charactersButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="401dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="28dp"
+        android:src="@drawable/pig_main_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/charactersButton"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="32dp"
+        android:background="#000000"
+        android:fontFamily="@font/cherrybomb"
+        android:onClick="onCharactersButton"
+        android:text="De Karakters"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/cherrybomb"
+        android:text="Hoofdmenu"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

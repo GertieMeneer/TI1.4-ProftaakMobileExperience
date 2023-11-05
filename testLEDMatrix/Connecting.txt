@@ -1,0 +1,6 @@
+ESP32 - - - LED matrix 8x8
+
+3.3V --> VCC
+GND --> GND
+D21 --> SDA
+D22 --> SCL

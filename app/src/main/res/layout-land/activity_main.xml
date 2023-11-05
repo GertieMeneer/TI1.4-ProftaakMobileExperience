@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:background="@drawable/backgroundproftaak">
+
+    <Button
+        android:id="@+id/mapButton"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="24dp"
+        android:layout_weight="1"
+        android:background="@android:color/black"
+        android:fontFamily="@font/cherrybomb"
+        android:onClick="onMapButton"
+        android:text="Kaart"
+        app:layout_constraintBottom_toTopOf="@+id/writeButton"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/writeButton"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="24dp"
+        android:layout_weight="1"
+        android:background="@android:color/black"
+        android:fontFamily="@font/cherrybomb"
+        android:onClick="onWriteButton"
+        android:text="Tekenen"
+        app:layout_constraintBottom_toTopOf="@+id/charactersButton"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="365dp"
+        android:layout_height="297dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/pig_main_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/charactersButton"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="#000000"
+        android:fontFamily="@font/cherrybomb"
+        android:text="Karakters"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/cherrybomb"
+        android:text="Hoofdmenu"
+        android:textSize="48sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

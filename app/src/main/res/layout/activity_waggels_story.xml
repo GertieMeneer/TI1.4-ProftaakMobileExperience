@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="175dp"
+        android:layout_height="65dp"
+        android:text="Waggel"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="het Avontuurlijke Varken"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="325dp"
+        android:layout_height="496dp"
+        android:layout_marginTop="20dp"
+        android:scrollbars="vertical"
+        android:text="Waggel komt van een boerderij in de polder van de Molenlanden. Hij was altijd nieuwsgierig naar de wereld buiten de boerderij. Toen hij oud genoeg was om de boerderij te verlaten, pakte hij meteen zijn spullen. Met een vat &quot;appelsap&quot; op zijn rug en zijn spullen aan zijn zijde, ging hij op avontuur. Nadat Waggel boer Hans vaarwel had gezegd, begon hij eindelijk aan zijn avontuur. Als eerste reisde hij door Nederland, waar hij molens en tulpen vond. Daarna ontdekte hij Duitsland, met zijn hoge bergen en oude kastelen die het land sierden. Vervolgens bezocht hij ook landen zoals Japan en China, waar de natuur steeds mooier werd en de cultuur steeds rijker. Hij reisde de hele wereld rond, bezocht Amerika en Canada, waar mensen dezelfde taal spreken maar toch uniek zijn. Waggel ontdekte al snel dat het leek alsof alle plekken op aarde al door mensen waren ontdekt. Het leek erop dat er niets meer was om te ontdekken. Op een dag, terwijl hij door de natuur wandelde, deed hij iets wat hij dacht dat onmogelijk was. Hij vond een plek die nog niet op zijn kaart stond: een betoverend woud waar magie overvloeide. Het bleek het wonderlijke woud te heten, waar dieren van over de hele wereld leefden. In dit woud maakte hij nieuwe vrienden waarmee hij dagenlang speelde. Na een aantal dagen met zijn nieuwe vriendjes gespeeld te hebben, besloot Waggel dat de hele wereld van deze magische plek moest leren. Hij besloot mensen naar het wonderlijke woud te leiden en ze voor te stellen aan zijn nieuwe vriendjes. Dus begon hij zijn reis opnieuw, dit keer om mensen kennis te laten maken met zijn vriendjes. Vandaag ben jij een van die mensen, dus kom mee met Waggel en ontdek het wonderlijke woud. "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="16dp"
+        android:text="terug"
+        android:onClick="onBackButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+</androidx.constraintlayout.widget.ConstraintLayout>
