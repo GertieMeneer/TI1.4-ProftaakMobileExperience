@@ -21,7 +21,7 @@ public class Mqtt {
     private MqttClient client = null;
     private MqttConnectOptions mqttConnectOptions = new MqttConnectOptions();
 
-    private final String url = "ssl://7b10c1a6effd49c798757d01597a1663.s2.eu.hivemq.cloud:8883";
+    private final String url = "ssl://7b10c1a6effd49c798757d01597a1663.s2.eu.hivemq.cloud:8883";    //url not in use anymore
 
     public Mqtt() {
         try {

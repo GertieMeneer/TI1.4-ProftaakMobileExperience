@@ -31,10 +31,10 @@ long duration = 0;
 float distanceCm = 0;
 String matrixMessage = "";
 
-const char* ssid = "joost";
+const char* ssid = "joost";     //was a windows hotspot
 const char* password = "patrick123";
 
-const char* mqttServer = "7b10c1a6effd49c798757d01597a1663.s2.eu.hivemq.cloud";
+const char* mqttServer = "7b10c1a6effd49c798757d01597a1663.s2.eu.hivemq.cloud";   //url not in use anymore
 const int mqttPort = 8883;
 const char* mqttUser = "espSub";
 const char* mqttPassword = "espPasswordH3elZiek";

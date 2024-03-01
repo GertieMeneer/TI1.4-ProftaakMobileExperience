@@ -67,7 +67,7 @@ public class LED_MatrixActivity extends AppCompatActivity {
         try {
             // serverURI in format: "protocol://name:port"
             this.client = new MqttClient(
-                    "ssl://7b10c1a6effd49c798757d01597a1663.s2.eu.hivemq.cloud:8883",
+                    "ssl://7b10c1a6effd49c798757d01597a1663.s2.eu.hivemq.cloud:8883",       // url not in use anymore
                     MqttClient.generateClientId(),
                     new MemoryPersistence());
         } catch (MqttException e) {
@@ -76,7 +76,7 @@ public class LED_MatrixActivity extends AppCompatActivity {
 
         MqttConnectOptions mqttConnectOptions = new MqttConnectOptions();
         mqttConnectOptions.setUserName("AndroidPhone");
-        mqttConnectOptions.setPassword("Stronk!PasswordSuperAdmin1".toCharArray());
+        mqttConnectOptions.setPassword("Stronk!PasswordSuperAdmin1".toCharArray());     //strong password lol
         mqttConnectOptions.setSocketFactory(SSLSocketFactory.getDefault());
 
         try {
